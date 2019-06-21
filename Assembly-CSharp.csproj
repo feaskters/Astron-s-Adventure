@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\levelScenes\levelSceneController.cs" />
      <Compile Include="Assets\Scripts\mainScenes\startButton.cs" />
      <Compile Include="Assets\Scripts\portalScript.cs" />
+     <Compile Include="Assets\Scripts\spikeScript.cs" />
      <Compile Include="Assets\Scripts\tipScript.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/role/Desktop/unityprojects/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

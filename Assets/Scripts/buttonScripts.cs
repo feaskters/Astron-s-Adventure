@@ -49,6 +49,7 @@ public class buttonScripts : MonoBehaviour
             player.GetComponent<Animator>().SetTrigger("astron_death");
             player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             player.GetComponent<Rigidbody2D>().gravityScale = 0;
+            invalidate_button();
         }
     }
 
@@ -101,6 +102,12 @@ public class buttonScripts : MonoBehaviour
         up.enabled = false;
         Destroy(player);
         gameOverTip.GetComponentInChildren<Animator>().SetTrigger("In");
+    }
+
+    public void invalidate_button(){
+        left.enabled = false;
+        right.enabled = false;
+        up.enabled = false;
     }
 
 }
