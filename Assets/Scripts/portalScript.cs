@@ -29,7 +29,11 @@ public class portalScript : MonoBehaviour
             winTip.GetComponentInChildren<Animator>().SetTrigger("In");
 
             var level = GameObject.FindGameObjectWithTag("levelInfo").name;
-            PlayerPrefs.SetInt("level", int.Parse(level) + 1);
+            var int_level = int.Parse(level) + 1;
+            if (PlayerPrefs.GetInt("level") < int_level)
+            {
+                PlayerPrefs.SetInt("level", int_level);
+            }
             PlayerPrefs.Save();
         }
     }
