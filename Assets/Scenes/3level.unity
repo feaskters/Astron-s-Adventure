@@ -3015,12 +3015,12 @@ PrefabInstance:
     - target: {fileID: 4982975767225329222, guid: 8834ea0dc960c491eac823a9f7b27438,
         type: 3}
       propertyPath: m_PlaneDistance
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4982975766486475470, guid: 8834ea0dc960c491eac823a9f7b27438,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4087
+      value: -10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8834ea0dc960c491eac823a9f7b27438, type: 3}
@@ -4190,10 +4190,15 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 605201027}
+    - target: {fileID: 1008136684733611013, guid: 759480af2f7f7458884de31c1e47ff28,
+        type: 3}
+      propertyPath: m_PlaneDistance
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1008136685502347040, guid: 759480af2f7f7458884de31c1e47ff28,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4086
+      value: -10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 759480af2f7f7458884de31c1e47ff28, type: 3}
