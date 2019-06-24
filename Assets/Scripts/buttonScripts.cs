@@ -27,7 +27,7 @@ public class buttonScripts : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         mainCamera = Camera.main;
         distance = mainCamera.transform.position - player.transform.position;
-        back.onClick.AddListener(() => {SceneManager.LoadScene("LevelScene");});
+        back.onClick.AddListener(() => {SceneManager.LoadScene("LevelScene");AudioManager._instance.playbutton();});
     }
 
     // Update is called once per frame
@@ -65,6 +65,7 @@ public class buttonScripts : MonoBehaviour
             case "up":
                 if (isGround && up.enabled)
                 {
+                    AudioManager._instance.playjump();
                     isGround = false;
                     player.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpforce));
                 }

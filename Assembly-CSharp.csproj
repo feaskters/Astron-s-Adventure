@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\buttonScripts.cs" />
      <Compile Include="Assets\Scripts\gameOverScript.cs" />
      <Compile Include="Assets\Scripts\levelScenes\levelSceneController.cs" />

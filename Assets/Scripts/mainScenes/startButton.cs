@@ -8,16 +8,17 @@ public class startButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void onClick(){
+        AudioManager._instance.playbutton();
         SceneManager.LoadScene("LevelScene");
     }
 }

@@ -23,6 +23,8 @@ public class portalScript : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other) {
         if (other.transform.tag == "Player")
         {
+            AudioManager._instance.playsuccess();
+
             left.enabled = false;
             right.enabled = false;
             up.enabled = false;

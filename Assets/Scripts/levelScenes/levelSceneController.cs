@@ -43,6 +43,7 @@ public class levelSceneController : MonoBehaviour
     }
 
     void buttonClick(string message){
+        AudioManager._instance.playbutton();
         if (message == "back")
         {
             SceneManager.LoadScene("MainScene");
