@@ -101,6 +101,7 @@ public class buttonScripts : MonoBehaviour
         left.enabled = false;
         right.enabled = false;
         up.enabled = false;
+        AudioManager._instance.playdead();
         Destroy(player);
         gameOverTip.GetComponentInChildren<Animator>().SetTrigger("In");
     }

@@ -19,7 +19,7 @@ public class tipScript : MonoBehaviour
     }
 
     public void onClick(){
-        transform.GetComponent<Animator>().SetTrigger("continue");
+        transform.GetComponentInChildren<Animator>().SetTrigger("continue");
     }
 
 }
