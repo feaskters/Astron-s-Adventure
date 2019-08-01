@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\buttonScripts.cs" />
      <Compile Include="Assets\Scripts\gameOverScript.cs" />
      <Compile Include="Assets\Scripts\levelScenes\levelSceneController.cs" />
+     <Compile Include="Assets\Scripts\MainLanguageController.cs" />
      <Compile Include="Assets\Scripts\mainScenes\startButton.cs" />
      <Compile Include="Assets\Scripts\portalScript.cs" />
      <Compile Include="Assets\Scripts\spikeScript.cs" />

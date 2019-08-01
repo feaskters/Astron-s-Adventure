@@ -1312,6 +1312,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a73cf15b0043453ea85717b85a49df3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tipText: {fileID: 1275023928}
+  continueText: {fileID: 1678639285}
+  customFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   con: {fileID: 440267500}
 --- !u!1 &662788497
 GameObject:

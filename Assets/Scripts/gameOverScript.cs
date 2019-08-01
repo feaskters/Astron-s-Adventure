@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 public class gameOverScript : MonoBehaviour
 {
     // Start is called before the first frame update
+    public Text wintext;
+    public Text buttonback;
+    public Font customFont;
+    public Text failText;
+    public Text restartText;
     void Start()
     {
         var restart_btn = transform.GetComponentsInChildren<Button>();
@@ -18,6 +23,30 @@ public class gameOverScript : MonoBehaviour
             {
                 item.onClick.AddListener(back);
             }
+        }
+        string language = Application.systemLanguage.ToString();
+        if (language == "Chinese" || language == "cn" || language == "ChineseSimplified")
+        {
+            if (wintext != null)
+            {
+                wintext.text = "关卡 通过";
+                wintext.font = customFont;
+            }
+
+            if (failText != null)
+            {
+                failText.text = "游戏 结束";
+                failText.font = customFont;
+            }
+            
+            if (restartText != null)
+            {
+                restartText.text = "重新开始";
+                restartText.font = customFont;
+            }
+
+            buttonback.text = "返回";
+            buttonback.font = customFont;
         }
     }
 
