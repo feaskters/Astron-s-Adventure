@@ -1,5 +1,8 @@
 # Astron-s-Adventure
-我的第一个unity2d游戏项目~~甚至连项目名都还是系统默认的~~
+![unity](https://img.shields.io/badge/unity-v2019.2.0b6-orange.svg)
+![platform](https://img.shields.io/badge/platform-Android%2FiPhone-green.svg)
+<br>
+我的第一个unity2d游戏项目~~甚至连项目名都还是系统默认的~~<br>
 适用于移动平台
 <hr>
 
